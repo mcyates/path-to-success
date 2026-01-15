@@ -187,6 +187,10 @@ h4 {
   color: var(--Purple);
 }
 
+a {
+  text-decoration: none;
+}
+
 header {
   text-align: center;
   color: var(--White);
@@ -281,7 +285,8 @@ h3 {
 #Prices table {
   margin: 1em auto;
   background-color: var(--Yellow);
-  border-spacing: 0.1em;
+  border-collapse: separate;
+  border-spacing: 0.15em;
 }
 
 th,
@@ -295,4 +300,43 @@ table th {
 
 table td {
   background-color: var(--White);
+}
+
+#FirstStep {
+  display: flex;
+  flex-direction: column;
+
+  background-color: var(--Pink);
+
+  color: var(--White);
+  padding: 1em;
+
+  a {
+    background-color: var(--White);
+    width: 60%;
+    align-self: center;
+    padding: 1em;
+    border-radius: 0.5em;
+
+    text-align: center;
+    text-decoration: none;
+    color: var(--Dark-gray);
+
+    box-shadow: 0.25em 0.2em 0.1em var(--Dark-gray);
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  color: var(--White);
+
+  padding: 2em;
+
+  a {
+    color: var(--White);
+    text-decoration: underline;
+  }
 }
