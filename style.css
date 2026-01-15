@@ -229,7 +229,11 @@ h3 {
   margin-left: 0.5em;
   font-weight: bold;
 }
-
+#Services {
+  h2 {
+    margin-bottom: 0.25em;
+  }
+}
 #Services section > section {
   background-color: var(--White);
   border-radius: 0.5em;
