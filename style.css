@@ -311,6 +311,10 @@ table td {
   color: var(--White);
   padding: 1em;
 
+  h2 {
+    margin-left: 0em;
+  }
+
   a {
     background-color: var(--White);
     width: 60%;
