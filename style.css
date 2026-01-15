@@ -213,3 +213,22 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
 }
+article h2 {
+  font-weight: normal;
+}
+
+article h4 {
+  font-weight: bold;
+}
+h2,
+h3 {
+  margin-left: 0.5em;
+  font-weight: bold;
+}
+
+#Services section > section {
+  background-color: var(--White);
+  border-radius: 5px;
+  margin: 1em;
+  padding: 1em;
+}
