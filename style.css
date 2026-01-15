@@ -133,7 +133,7 @@ table {
 }
 /* ROOT VARIABLES */
 :root {
-  --teal: #4ca7c0;
+  --Teal: #4ca7c0;
   --Purple: #484fb7;
   --Lavender: #6b8fe7;
   --Yellow: #e9bb57;
@@ -228,7 +228,45 @@ h3 {
 
 #Services section > section {
   background-color: var(--White);
-  border-radius: 5px;
+  border-radius: 0.5em;
   margin: 1em;
   padding: 1em;
+}
+
+#Choose {
+  background-color: var(--Pink);
+  padding: 0.5em;
+}
+
+#Choose ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1em;
+  margin: 1em;
+
+  color: var(--Dark-gray);
+}
+
+#Choose ul > li {
+  padding: 1em;
+  border-radius: 0.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+#Choose ul > li:first-child {
+  background-color: var(--Teal);
+}
+
+#Choose ul > li:nth-child(2) {
+  background-color: var(--Lavender);
+}
+
+#Choose ul > li:nth-child(3) {
+  background-color: var(--Yellow);
+}
+
+#Choose ul > li:last-child {
+  background-color: var(--White);
 }
