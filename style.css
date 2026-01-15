@@ -270,3 +270,29 @@ h3 {
 #Choose ul > li:last-child {
   background-color: var(--White);
 }
+
+#Prices {
+  h2 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+}
+
+#Prices table {
+  margin: 1em auto;
+  background-color: var(--Yellow);
+  border-spacing: 0.1em;
+}
+
+th,
+td {
+  padding: 1em;
+}
+
+table th {
+  font-weight: bold;
+}
+
+table td {
+  background-color: var(--White);
+}
