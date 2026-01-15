@@ -160,6 +160,7 @@ h2 {
   font-family: "Kavoon", serif;
   font-weight: 400;
   font-style: normal;
+  color: var(--White);
 }
 
 h1 {
@@ -167,7 +168,10 @@ h1 {
 }
 
 nav h2 {
+  /* font-family: "Inter", sans-serif; */
   font-size: 1.5em;
+  color: var(--Dark-gray);
+  font-style: italic;
 }
 
 h2 {
@@ -175,8 +179,37 @@ h2 {
 }
 h3 {
   font-size: 1.5em;
+  color: var(--Yellow);
 }
 
 h4 {
   font-size: 1.15em;
+  color: var(--Purple);
+}
+
+header {
+  text-align: center;
+  color: var(--White);
+}
+header h1,
+p {
+  margin: 0.5em 0;
+}
+
+nav {
+  background-color: var(--Yellow);
+  text-align: center;
+  padding: 1em;
+  margin: 1em 0;
+  font-weight: bold;
+}
+
+nav ul li {
+  background-color: var(--White);
+  padding: 1em;
+  margin: 8px;
+}
+
+nav ul li a {
+  text-decoration: none;
 }
